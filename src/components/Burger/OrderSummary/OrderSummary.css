@@ -1,0 +1,13 @@
+.OrderSummary {
+    background-color: #703B09;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4%;
+}
+.OrderSummaryList {
+    list-style-type: circle;
+}
+.TotalPrice {
+    font-weight: bold;
+}

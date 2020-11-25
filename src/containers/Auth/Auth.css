@@ -1,0 +1,64 @@
+.Auth {
+    width: 60%;
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.Auth form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Auth form input {
+    width: 80%;
+    margin-top: 2%;
+}
+
+.Auth h3 {
+    color: #5C9210;
+    margin: 15px 0;
+}
+
+.AuthText {
+    color: #944339;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+@media (max-width: 600px) {
+    .Auth {
+        width: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    .Auth {
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px) {
+    .Auth {
+        width: 350px;
+    }
+}
+
+@media (max-width: 400px) {
+    .Auth {
+        width: 300px;
+    }
+    .Auth h3 {
+        font-size: 16px;
+    }
+    .AuthText {
+        font-size: 12px;
+    }
+
+}
